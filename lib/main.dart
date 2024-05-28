@@ -1,10 +1,14 @@
 
 
+import 'package:course_flutter_animations/env/env.dart';
 import 'package:course_flutter_animations/src/pages/example_two_page.dart';
 import 'package:course_flutter_animations/src/pages/rotation_page.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_dotenv/flutter_dotenv.dart';
 
-void main() {
+void main()async {
+
+  print(Env.test);
   runApp(const App());
 }
 
